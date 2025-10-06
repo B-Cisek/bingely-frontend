@@ -4,7 +4,7 @@
 Modern React application with TypeScript, using enterprise-grade libraries for forms, data fetching, and state management.
 
 ## Tech Stack
-- **React 18+** - UI library
+- **React 19+** - UI library
 - **React Router** - routing
 - **Axios** - HTTP client
 - **TanStack Query** - server state management
@@ -433,13 +433,6 @@ npx shadcn-ui@latest add button
 - Use TanStack Query's built-in caching
 - Lazy load routes with React.lazy
 - Keep bundle size in check (analyze with vite-bundle-visualizer)
-
-## Testing Strategy
-- Unit test utilities and hooks
-- Integration test user flows
-- Mock API calls with MSW
-- Test form validation with various inputs
-- Use React Testing Library
 
 ## Environment Variables
 Create `.env` file:
